@@ -458,11 +458,11 @@ function keyup(evt) {
     var keyCode = (evt.keyCode)? evt.keyCode : evt.getKeyCode();
 
     switch (keyCode) {
-        case "N".charCodeAt(0):
+        case 37:
             if (player.motion == motionType.LEFT) player.motion = motionType.NONE;
             break;
 
-        case "M".charCodeAt(0):
+        case 39:
             if (player.motion == motionType.RIGHT) player.motion = motionType.NONE;
             break;
     }
