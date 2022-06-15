@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="800px" height="600px"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xhtml="http://www.w3.org/1999/xhtml"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:a="http://www.adobe.com/svg10-extensions" a:timeline="independent"
+     onload="top.load(evt)">
+<!--Created by Chuen-->
+  <defs>
+    <clipPath id="gameareaclip">
+      <rect x="20" y="20" width="600" height="560"/>
+    </clipPath>
+    <pattern id="background_pattern" x="0" y="0" width="120" height="118" patternUnits="userSpaceOnUse">
+      <rect width="120" height="118" style="fill:DeepSkyBlue"/>
+      <g transform="scale(0.2)">
+      	<path style="fill:#FFFFFF;" d="M142.5,455c70.304,0,127.5-57.196,127.5-127.5c0-109.772-91.24-240.173-92.161-241.477
+      		c-1.227-1.736-1.659-3.911-1.19-5.983c0.47-2.073,1.796-3.85,3.65-4.889C202.586,62.67,217.189,40.079,219.635,15H65.365
+      		c2.445,25.079,17.049,47.67,39.336,60.151c1.854,1.038,3.18,2.815,3.649,4.888s0.037,4.247-1.188,5.983
+      		C106.24,87.327,15,217.813,15,327.5C15,397.804,72.196,455,142.5,455z M95.51,397.07c4.14,0,7.5,3.36,7.5,7.5
+      		c0,2.74-1.47,5.124-3.657,6.433c-1.126,0.675-2.438,1.07-3.847,1.07c-4.142,0-7.5-3.358-7.5-7.5c0-1.53,0.46-2.951,1.247-4.138
+      		C90.595,398.409,92.892,397.07,95.51,397.07z M65.51,367.07c4.14,0,7.5,3.36,7.5,7.5c0,2.792-1.525,5.217-3.781,6.508
+      		c-1.098,0.63-2.366,0.995-3.723,0.995c-4.142,0-7.5-3.358-7.5-7.5c0-1.553,0.472-2.997,1.281-4.194
+      		C60.634,368.383,62.916,367.07,65.51,367.07z"/>
+      	 <path style="fill:#B2AFAF;" d="M403.5,297.5c0,4.143,3.357,7.5,7.5,7.5s7.5-3.357,7.5-7.5c0-5.624,1.308-8.076,3.117-11.47
+      		c2.176-4.078,4.883-9.153,4.883-18.527c0-9.375-2.707-14.451-4.882-18.53c-1.811-3.394-3.118-5.846-3.118-11.472
+      		c0-5.625,1.308-8.077,3.117-11.471c2.176-4.079,4.883-9.154,4.883-18.53c0-4.143-3.357-7.5-7.5-7.5s-7.5,3.357-7.5,7.5
+      		c0,5.626-1.308,8.078-3.118,11.472c-2.175,4.078-4.882,9.154-4.882,18.529s2.707,14.451,4.882,18.53
+      		c1.811,3.394,3.118,5.846,3.118,11.472c0,5.624-1.308,8.075-3.117,11.469C406.207,283.05,403.5,288.125,403.5,297.5z"/>
+      	<path style="fill:#B2AFAF;" d="M363.5,297.5c0,4.143,3.357,7.5,7.5,7.5s7.5-3.357,7.5-7.5c0-5.624,1.308-8.076,3.117-11.47
+      		c2.176-4.078,4.883-9.153,4.883-18.527c0-9.375-2.707-14.451-4.882-18.53c-1.811-3.394-3.118-5.846-3.118-11.472
+      		c0-5.625,1.308-8.077,3.117-11.471c2.176-4.079,4.883-9.154,4.883-18.53c0-4.143-3.357-7.5-7.5-7.5s-7.5,3.357-7.5,7.5
+      		c0,5.626-1.308,8.078-3.118,11.472c-2.175,4.078-4.882,9.154-4.882,18.529s2.707,14.451,4.882,18.53
+      		c1.811,3.394,3.118,5.846,3.118,11.472c0,5.624-1.308,8.075-3.117,11.469C366.207,283.05,363.5,288.125,363.5,297.5z"/>
+      	<path style="fill:#C1765B;" d="M454.12,335H335.88l10.762,96.855C348.036,444.401,359.877,455,372.5,455h45
+      		c12.623,0,24.464-10.599,25.858-23.145L454.12,335z"/>
+      	<path style="fill:#1C1918;" d="M468.089,322.498c-1.423-1.59-3.455-2.498-5.589-2.498h-135c-2.134,0-4.166,0.908-5.589,2.498
+      		c-1.422,1.59-2.101,3.71-1.865,5.83l11.688,105.184C333.969,453.632,352.257,470,372.5,470h45
+      		c20.243,0,38.531-16.368,40.767-36.488l11.688-105.184C470.189,326.208,469.511,324.088,468.089,322.498z M417.5,455h-45
+      		c-12.623,0-24.464-10.599-25.858-23.145L335.88,335h118.24l-10.762,96.855C441.964,444.401,430.123,455,417.5,455z"/>
+      	<path style="fill:#1C1918;" d="M194.564,83.943C219.694,66.804,235,38.206,235,7.5c0-4.143-3.357-7.5-7.5-7.5h-170
+      		C53.357,0,50,3.357,50,7.5c0,30.707,15.306,59.304,40.436,76.443c-7.958,11.967-25.324,39.285-42.89,74.795
+      		C15.997,222.518,0,279.297,0,327.5C0,383.237,32.17,431.594,78.913,455H67.5c-4.143,0-7.5,3.357-7.5,7.5s3.357,7.5,7.5,7.5h150
+      		c4.143,0,7.5-3.357,7.5-7.5s-3.357-7.5-7.5-7.5h-11.413C252.83,431.594,285,383.237,285,327.5
+      		c0-48.203-15.997-104.982-47.546-168.762C219.889,123.229,202.523,95.91,194.564,83.943z M107.162,86.022
+      		c1.226-1.736,1.658-3.911,1.188-5.983s-1.796-3.85-3.649-4.888C82.414,62.67,67.811,40.079,65.365,15h154.27
+      		c-2.445,25.079-17.049,47.67-39.336,60.151c-1.854,1.039-3.181,2.815-3.65,4.889c-0.469,2.072-0.036,4.247,1.19,5.983
+      		C178.76,87.327,270,217.728,270,327.5c0,70.304-57.196,127.5-127.5,127.5S15,397.804,15,327.5
+      		C15,217.813,106.24,87.327,107.162,86.022z"/>
+      	<path style="fill:#1C1918;" d="M95.507,412.073c1.408,0,2.721-0.395,3.847-1.07c2.186-1.311,3.653-3.696,3.653-6.429
+      		c0-4.142-3.358-7.5-7.5-7.5c-2.612,0-4.91,1.337-6.253,3.362c-0.787,1.186-1.247,2.608-1.247,4.138
+      		C88.007,408.715,91.365,412.073,95.507,412.073z"/>
+      	<path style="fill:#1C1918;" d="M65.507,382.073c1.356,0,2.625-0.365,3.723-0.995c2.255-1.293,3.777-3.719,3.777-6.505
+      		c0-4.142-3.358-7.5-7.5-7.5c-2.589,0-4.871,1.312-6.219,3.306c-0.809,1.197-1.281,2.64-1.281,4.194
+      		C58.007,378.715,61.364,382.073,65.507,382.073z"/>
+      </g>
+    </pattern>
+    <radialGradient id="player_color">
+      <stop offset="0.0" style="stop-color:yellow;stop-opacity:1"/>
+      <stop offset="0.8" style="stop-color:yellow;stop-opacity:1"/>
+      <stop offset="1.0" style="stop-color:orange;stop-opacity:1"/>
+    </radialGradient>
+    <g id="monster">
+      <image width="40" height="40" xlink:href="img/pirate.svg" preserveAspectRatio="none"/>
+    </g>
+    <g id="specialMonster">
+      <image width="40" height="40" xlink:href="img/specialPirate.svg" preserveAspectRatio="none"/>
+    </g>
+    <g id="monsterBullet">
+      <circle cx="5" cy="5" r="5" style="fill:black"/>
+      <circle cx="6" cy="3" r="1" style="fill:grey"/>
+    </g>
+    <g id="bulletRight">
+      <image width="90" height="40" xlink:href="img/pressureRight.svg" preserveAspectRatio="none"/>
+    </g>
+    <g id="bulletLeft">
+      <image width="90" height="40" xlink:href="img/pressureLeft.svg" preserveAspectRatio="none"/>
+    </g>
+    <g id="goodThing">
+      <image width="20" height="20" xlink:href="img/treasure.svg" />
+    </g>
+    
+  </defs>
+
+  <rect width="100%" height="100%" style="fill:url(#background_pattern);stroke:orange;stroke-width:4" />
+
+  <rect x="20" y="20" width="600" height="560" style="fill:black;stroke:red;stroke-width:5" />
+    
+  <!--add your score element here-->
+  <g transform="translate(640, 40)">
+    <text x="70" y="0" style="fill:orange;font-size:25px;font-weight:bold;text-anchor:middle">Level:</text>
+    <rect x="0" y="10" rx="20" ry="20" width="140" height="35" style="fill:white; stroke:green; stroke-width:3px;" />
+    <text id="level" x="70" y="36" style="fill:orange;font-size:25px;text-anchor:middle">1</text>
+  </g>
+
+  <g transform="translate(640, 140)">
+    <text x="70" y="0" style="fill:orange;font-size:25px;font-weight:bold;text-anchor:middle">Score:</text>
+    <rect x="0" y="10" rx="20" ry="20" width="140" height="35" style="fill:white; stroke:green; stroke-width:3px;" />
+    <text id="score" x="70" y="36" style="fill:orange;font-size:25px;text-anchor:middle">0</text>
+  </g>
+
+  <g transform="translate(640, 240)">
+    <text x="70" y="0" style="fill:orange;font-size:25px;font-weight:bold;text-anchor:middle">Time:</text>
+    <rect x="0" y="10" rx="20" ry="20" width="140" height="35" style="fill:white; stroke:green; stroke-width:3px;" />
+    <text id="time" x="70" y="36" style="fill:orange;font-size:25px;text-anchor:middle">60</text>
+  </g>
+
+  <g transform="translate(640, 340)">
+    <text x="70" y="0" style="fill:orange;font-size:25px;font-weight:bold;text-anchor:middle">Flying Slash:</text>
+    <rect x="0" y="10" rx="20" ry="20" width="140" height="35" style="fill:white; stroke:green; stroke-width:3px;" />
+    <text id="remainSlash" x="70" y="36" style="fill:orange;font-size:25px;text-anchor:middle">8</text>
+  </g>
+  
+  <g transform="translate(640, 420)">
+    <rect id="cheatMode" x="0" y="0" rx="20" ry="20" width="140" height="40" fill="red"/>
+    <text x="70" y="28" style="fill:white;font-size:25px;text-anchor:middle">Cheat Mode</text>
+  </g>
+  
+  <g style="clip-path:url(#gameareaclip)">
+    <g transform="translate(20,20)">
+      <g id="gamearea" transform="translate(0,0)" width="600" height="560">
+        <rect x="0" y="0" width="600" height="560" style="fill:white" />
+
+        <g id="platforms">
+            <!--40-->
+            <rect style="fill:rgb(150,22,11)" width="100" height="20" x="520" y="40"/>
+          
+            <!-- 60 -->
+            <rect style="fill:rgb(150,22,11)" width="60" height="20" x="0" y="60"/>
+
+            <!-- 80 -->
+            <rect style="fill:rgb(150,22,11)" width="20" height="20" x="40" y="80"/>
+
+            <!-- 100 -->
+            <rect style="fill:rgb(150,22,11)" width="120" height="20" x="40" y="100"/>
+            <rect id="vPlatform1" style="fill:rgb(150,22,11);opacity:1" width="340" height="20" x="160" y="100"/>
+
+            <!-- 120 -->
+            <rect style="fill:rgb(150,22,11)" width="20" height="20" x="60" y="120"/>
+
+            <!-- 140 -->
+            <rect style="fill:rgb(150,22,11)" width="40" height="20" x="560" y="140"/>
+
+            <!-- 160 -->
+            <rect style="fill:rgb(150,22,11)" width="60" height="20" x="540" y="160"/>
+
+            <!-- 180 -->
+            <rect style="fill:rgb(150,22,11)" width="20" height="20" x="0" y="180"/>
+            <rect style="fill:rgb(150,22,11)" width="20" height="20" x="100" y="180"/>
+            <rect id="mPlatform2" style="fill:rgb(150,22,11)" width="60" height="20" x="160" y="180"/>
+            <rect id="mPlatform1" style="fill:rgb(150,22,11)" width="40" height="20" x="340" y="180"/>
+            <rect style="fill:rgb(150,22,11)" width="20" height="20" x="380" y="180"/>
+            <rect style="fill:rgb(150,22,11)" width="80" height="20" x="520" y="180"/>
+
+            <!-- 200 -->
+            <rect style="fill:rgb(150,22,11)" width="20" height="20" x="0" y="200"/>
+            <rect style="fill:rgb(150,22,11)" width="40" height="20" x="80" y="200"/>
+            <rect style="fill:rgb(150,22,11)" width="60" height="20" x="380" y="200"/>
+
+            <!-- 220 -->
+            <rect style="fill:rgb(150,22,11)" width="120" height="20" x="0" y="220"/>
+            <rect style="fill:rgb(150,22,11)" width="80" height="20" x="380" y="220"/>
+
+            <!-- 240 -->
+            <rect style="fill:rgb(150,22,11)" width="20" height="20" x="240" y="240"/>
+            <rect style="fill:rgb(150,22,11)" width="120" height="20" x="380" y="240"/>
+
+            <!-- 260 -->
+            <rect style="fill:rgb(150,22,11)" width="60" height="20" x="220" y="260"/>
+
+            <!-- 280 -->
+            <rect style="fill:rgb(150,22,11)" width="100" height="20" x="200" y="280"/>
+            <rect style="fill:rgb(150,22,11)" width="40" height="20" x="560" y="280"/>
+
+            <!-- 300 -->
+            <rect id="vPlatform2" style="fill:rgb(150,22,11);opacity:1" width="100" height="20" x="120" y="300"/>
+            <rect style="fill:rgb(150,22,11)" width="40" height="20" x="280" y="300"/>
+            <rect style="fill:rgb(150,22,11)" width="100" height="20" x="500" y="300"/>
+
+            <!-- 320 -->
+            <rect style="fill:rgb(150,22,11)" width="40" height="20" x="0" y="320"/>
+            <rect style="fill:rgb(150,22,11)" width="60" height="20" x="280" y="320"/>
+            <rect style="fill:rgb(150,22,11)" width="20" height="20" x="380" y="320"/>
+
+            <!-- 340 -->
+            <rect style="fill:rgb(150,22,11)" width="60" height="20" x="0" y="340"/>
+            <rect style="fill:rgb(150,22,11)" width="20" height="20" x="320" y="340"/>
+            <rect style="fill:rgb(150,22,11)" width="60" height="20" x="380" y="340"/>
+
+            <!-- 360 -->
+            <rect style="fill:rgb(150,22,11)" width="120" height="20" x="0" y="360"/>
+            <rect style="fill:rgb(150,22,11)" width="20" height="20" x="320" y="360"/>
+            <rect style="fill:rgb(150,22,11)" width="120" height="20" x="380" y="360"/>
+
+            <!-- 380 -->
+            <rect style="fill:rgb(150,22,11)" width="100" height="20" x="0" y="380"/>
+            <rect style="fill:rgb(150,22,11)" width="20" height="20" x="220" y="380"/>
+            <rect style="fill:rgb(150,22,11)" width="20" height="20" x="580" y="380"/>
+
+            <!-- 400 -->
+            <rect style="fill:rgb(150,22,11)" width="80" height="20" x="180" y="400"/>
+            <rect style="fill:rgb(150,22,11)" width="40" height="20" x="560" y="400"/>
+
+            <!-- 420 -->
+            <rect style="fill:rgb(150,22,11)" width="180" height="20" x="160" y="420"/>
+            <rect style="fill:rgb(150,22,11)" width="60" height="20" x="540" y="420"/>
+
+            <!-- 440 -->
+            <rect style="fill:rgb(150,22,11)" width="100" height="20" x="140" y="440"/>
+            <rect style="fill:rgb(150,22,11)" width="20" height="20" x="440" y="440"/>
+            <rect id="vPlatform3" style="fill:rgb(150,22,11);opacity:1" width="60" height="20" x="460" y="440"/>
+            <rect style="fill:rgb(150,22,11)" width="40" height="20" x="520" y="440"/>
+
+            <!-- 460 -->
+            <rect style="fill:rgb(150,22,11)" width="60" height="20" x="120" y="460"/>
+            <rect style="fill:rgb(150,22,11)" width="60" height="20" x="400" y="460"/>
+
+            <!-- 480 -->
+            <rect style="fill:rgb(150,22,11)" width="40" height="20" x="0" y="480"/>
+            <rect style="fill:rgb(150,22,11)" width="80" height="20" x="380" y="480"/>
+
+            <!-- 500 -->
+            <rect style="fill:rgb(150,22,11)" width="60" height="20" x="0" y="500"/>
+            <rect style="fill:rgb(150,22,11)" width="20" height="20" x="260" y="500"/>
+            <rect style="fill:rgb(150,22,11)" width="100" height="20" x="360" y="500"/>
+            
+            <!-- 520 -->
+            <rect style="fill:rgb(150,22,11)" width="80" height="20" x="0" y="520"/>
+            <rect style="fill:rgb(150,22,11)" width="20" height="20" x="140" y="520"/>
+            <rect style="fill:rgb(150,22,11)" width="80" height="20" x="240" y="520"/>
+            <rect style="fill:rgb(150,22,11)" width="20" height="20" x="500" y="520"/>
+            <rect style="fill:rgb(150,22,11)" width="180" height="20" x="320" y="520"/>
+
+            <!-- the floor -->
+            <rect style="fill:rgb(150,22,11)" width="600" height="20" x="0" y="540"/>
+        </g>
+
+      	<g id="upperportal" transform="translate(560, 0)">
+      	  <ellipse cx="21" cy="1.5" rx="17" ry="1.5" style="fill:orange;stroke:#FF4500;stroke-width:1.5"/>
+      	  <ellipse cx="21" cy="38" rx="17" ry="1.5" style="fill:orange;stroke:#FF4500;stroke-width:1.5"/>
+      	</g>
+      
+      	<g id="lowerportal" transform="translate(560, 500)">
+      	  <ellipse cx="21" cy="1.5" rx="17" ry="1.5" style="fill:Aqua;stroke:blue;stroke-width:1.5"/>
+      	  <ellipse cx="21" cy="38" rx="17" ry="1.5" style="fill:Aqua;stroke:blue;stroke-width:1.5"/>
+      	</g>
+      
+      	<g id="exit" transform="translate(20, 145)">
+      	  <rect x="0" y="0" width="60" height="20" style="fill:rgb(0,255,0);stroke:black;stroke-width:2"/>
+      	  <text x="30" y="15" style="text-anchor:middle" fill="yellow">Exit</text>
+      	  <rect x="0" y="20" width="30" height="55" style="fill:white;stroke:black;stroke-width:2"/>
+      	  <rect x="30" y="20" width="30" height="55" style="fill:white;stroke:black;stroke-width:2"/>
+      	</g>
+      	
+      	<g id="goodThings"/>
+      	
+      	<g id="monsterBullets"/>
+      	<g id="monsters"/>
+      	  
+        <g id="bullets"/>
+          
+        <g id="playerName"/>
+        <g id="player">
+          <image id="playerImage" width="40" height="40" xlink:href="img/zoro.svg" preserveAspectRatio="none"/>
+        </g>
+      </g>
+    
+        <!--add your highscore table here-->
+      <g id="highscoretable" transform="translate(40,40)" style="visibility:hidden">
+        <rect width="520" height="480" style="fill:white;stroke:green;stroke-width:2"/>
+        <image x="2" y="2" width="516" height="476" xlink:href="img/scoreTable.svg" />
+        <text x="260" y="40" style="fill:red;font-size:30px;font-weight:bold;text-anchor:middle;">
+          High Score Table
+        </text>
+        <text id="highscoretext" y="45" style="font-size: 20px;font-weight:bold"/>
+        <rect onclick="top.startAgain()" x="190" y="390" rx="20" ry="20"  width="140" height="40" style="fill:white;stroke:blue;stroke-width:5" />
+    	  <text onclick="top.startAgain()" x="260" y="418" style="fill:red;font-size:25px;text-anchor:middle">Start Again?</text>
+      </g>
+        
+        <!--Start page-->
+      <g id="startPage">
+	      <rect x="0" y="0" width="600" height="560" style="fill:white;stroke:red;stroke-width:2"/>
+        <text x="300" y="60" fill="green" style="font-size:50px;font-weight:bold;text-anchor:middle">The Treasure Hunt</text>
+	      <text x="300" y="100" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">You are Zoro. You need to</text>
+	      <text x="300" y="130" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">collect as many treasure as possible.</text>
+      	<text x="300" y="160" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">
+      	  Use the
+      	  <tspan style="fill:red;">N</tspan>
+      	  key to go left, the 
+      	  <tspan style="fill:red;">M</tspan>
+      	  key to
+      	</text>
+      	<text x="300" y="190" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">
+      	  go right and the 
+      	  <tspan style="fill:red;">Z</tspan>
+      	  key to jump.
+      	  </text>
+      	<text x="300" y="220" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">Pirates are going to kill you on the way.</text>
+      	<text x="300" y="250" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">
+      	  Use the 
+      	  <tspan style="fill:red;">spacebar</tspan>
+      	  to use Flying Slash
+      	</text>
+      	<text x="300" y="280" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">to kill them. Pick up the treasure and </text>
+      	<text x="300" y="310" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">go to the exit quickly.</text>
+      	
+      	<!--You can earn double</text>-->
+      	<!--<text x="300" y="340" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">points in zoom mode which is much harder.</text>-->
+      	<text x="300" y="370" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">Student Name: Tam Shu Chuen</text>
+      	<text x="300" y="400" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">Student ID: xxxx3847</text>
+        <rect onclick="top.startGame()" x="220" y="450" rx="20" ry="20" width="140" height="40" style="fill:white;stroke:green;stroke-width:5;" />
+        <text onclick="top.startGame()" x="290" y="478" style="fill:red;font-size:25px;text-anchor:middle">Start</text>
+      </g>
+      
+      
+    </g>
+  </g>
+</svg>
