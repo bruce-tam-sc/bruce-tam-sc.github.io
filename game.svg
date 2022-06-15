@@ -284,9 +284,9 @@
 	      <text x="300" y="130" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">collect as many treasure as possible.</text>
       	<text x="300" y="160" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">
       	  Use the
-      	  <tspan style="fill:red;">N</tspan>
+      	  <tspan style="fill:red;">←</tspan>
       	  key to go left, the 
-      	  <tspan style="fill:red;">M</tspan>
+      	  <tspan style="fill:red;">→</tspan>
       	  key to
       	</text>
       	<text x="300" y="190" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">

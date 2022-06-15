@@ -409,7 +409,7 @@ function keydown(evt) {
     var keyCode = (evt.keyCode)? evt.keyCode : evt.getKeyCode();
 
     switch (keyCode) {
-        case "N".charCodeAt(0):
+        case 37:
             if(player.motion!=motionType.LEFT){
               flipValue = -1;
             }
@@ -417,7 +417,7 @@ function keydown(evt) {
             currentMotion = motionType.LEFT;
             break;
 
-        case "M".charCodeAt(0):
+        case 39:
             if(player.motion!=motionType.RIGHT){
               flipValue = 1;
             }
