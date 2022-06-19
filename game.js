@@ -409,7 +409,7 @@ function keydown(evt) {
     var keyCode = (evt.keyCode)? evt.keyCode : evt.getKeyCode();
 
     switch (keyCode) {
-        case 37:
+        case "A".charCodeAt(0):
             if(player.motion!=motionType.LEFT){
               flipValue = -1;
             }
@@ -417,7 +417,7 @@ function keydown(evt) {
             currentMotion = motionType.LEFT;
             break;
 
-        case 39:
+        case "D".charCodeAt(0):
             if(player.motion!=motionType.RIGHT){
               flipValue = 1;
             }
@@ -425,7 +425,7 @@ function keydown(evt) {
             currentMotion = motionType.RIGHT;
             break;
 			
-        case "Z".charCodeAt(0):
+        case "W".charCodeAt(0):
             if (player.isOnPlatform()) {
                 player.verticalSpeed = JUMP_SPEED;
             }
@@ -458,11 +458,11 @@ function keyup(evt) {
     var keyCode = (evt.keyCode)? evt.keyCode : evt.getKeyCode();
 
     switch (keyCode) {
-        case 37:
+        case "A".charCodeAt(0):
             if (player.motion == motionType.LEFT) player.motion = motionType.NONE;
             break;
 
-        case 39:
+        case "D".charCodeAt(0):
             if (player.motion == motionType.RIGHT) player.motion = motionType.NONE;
             break;
     }

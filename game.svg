@@ -281,17 +281,17 @@
 	      <rect x="0" y="0" width="600" height="560" style="fill:white;stroke:red;stroke-width:2"/>
         <text x="300" y="60" fill="green" style="font-size:50px;font-weight:bold;text-anchor:middle">The Treasure Hunt</text>
 	      <text x="300" y="100" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">You are Zoro. You need to</text>
-	      <text x="300" y="130" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">collect as many treasure as possible.</text>
+	      <text x="300" y="130" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">collect as many treasures as possible.</text>
       	<text x="300" y="160" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">
       	  Use the
-      	  <tspan style="fill:red;">←</tspan>
+      	  <tspan style="fill:red;">A</tspan>
       	  key to go left, the 
-      	  <tspan style="fill:red;">→</tspan>
+      	  <tspan style="fill:red;">D</tspan>
       	  key to
       	</text>
       	<text x="300" y="190" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">
       	  go right and the 
-      	  <tspan style="fill:red;">Z</tspan>
+      	  <tspan style="fill:red;">W</tspan>
       	  key to jump.
       	  </text>
       	<text x="300" y="220" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">Pirates are going to kill you on the way.</text>
@@ -300,13 +300,13 @@
       	  <tspan style="fill:red;">spacebar</tspan>
       	  to use Flying Slash
       	</text>
-      	<text x="300" y="280" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">to kill them. Pick up the treasure and </text>
+      	<text x="300" y="280" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">to kill them. Pick up the treasures and </text>
       	<text x="300" y="310" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">go to the exit quickly.</text>
       	
       	<!--You can earn double</text>-->
       	<!--<text x="300" y="340" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">points in zoom mode which is much harder.</text>-->
-      	<text x="300" y="370" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">Student Name: Tam Shu Chuen</text>
-      	<text x="300" y="400" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">Student ID: xxxx3847</text>
+      	<text x="300" y="370" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle">Developer: Tam Shu Chuen</text>
+      	<text x="300" y="400" style="fill:blue;font-size:30px;font-weight:bold;text-anchor:middle"></text>
         <rect onclick="top.startGame()" x="220" y="450" rx="20" ry="20" width="140" height="40" style="fill:white;stroke:green;stroke-width:5;" />
         <text onclick="top.startGame()" x="290" y="478" style="fill:red;font-size:25px;text-anchor:middle">Start</text>
       </g>
