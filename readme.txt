@@ -1,1 +1,0 @@
-The Treasure Hunt - (HKUST) COMP4021 Project2
