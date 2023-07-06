@@ -161,11 +161,11 @@ var transmiss = true;
 
 var currentMotion = motionType.NONE;
 
-var bgSound = new Audio("sound/background.mp3");
-var attackSound = new Audio("sound/attack.mp3");
-var monsterSound = new Audio("sound/monsters.wav");
-var levelUpSound = new Audio("sound/levelup.wav");
-var loseSound = new Audio("sound/lose.wav");
+var bgSound = new Audio("./sound/background.mp3");
+var attackSound = new Audio("./sound/attack.mp3");
+var monsterSound = new Audio("./sound/monsters.wav");
+var levelUpSound = new Audio("./sound/levelup.wav");
+var loseSound = new Audio("./sound/lose.wav");
 
 //
 // The load function for the SVG document
