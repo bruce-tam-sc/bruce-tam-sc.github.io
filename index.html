@@ -232,7 +232,7 @@
                 class="cta-btn cta-btn--hero cta-btn--projects"
                 >Source Code</a
               >
-              <<a href="https://instaquest.web.app/" target="_blank"
+              <a href="https://instaquest.web.app/" target="_blank"
                 class="cta-btn text-color-main">See Live</a>
             </div>
           </div>
@@ -260,6 +260,49 @@
               <!-- Next and previous buttons -->
               <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
               <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+            </div>
+          </div>
+        </article>
+        <!-- /END Project -->
+
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Treasure Hunt</h3>
+            <h4 class="project-wrapper__text-subTitle">Project for HKUST's course</h4>
+            <p class="project-wrapper__text-info">
+              Implemented with Javascript and SVG. A mini game project for HKUST COMP4021 course. 
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a
+                href="https://github.com/shuchuen/Treasure-Hunt"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects"
+                >Source Code</a
+              >
+              <a href="/treasure-hunt.html" target="_blank"
+                class="cta-btn text-color-main">See Live</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides mySlides4 fade">
+                <img class="slideshow-image" src="./images/hunt/demo1.png" alt="Treasure-Hunt Home Page" style="width:100%">
+                <div class="text">Treasure-Hunt Home Page</div>
+              </div>
+
+              <div class="mySlides mySlides4 fade">
+                <img class="slideshow-image" src="./images/hunt/demo2.png" alt="Treasure-Hunt Demo" style="width:100%">
+                <div class="text">Treasure-Hunt Demo</div>
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
             </div>
           </div>
         </article>
@@ -306,10 +349,11 @@
   <script>
     let slideIndex = [1,1];
     /* Class the members of each slideshow group with different CSS classes */
-    let slideId = ["mySlides1", "mySlides3", "mySlides3"]
+    let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
     showSlides(1, 0);
     showSlides(1, 1);
     showSlides(1, 2);
+    showSlides(1, 3);
 
     function plusSlides(n, no) {
       showSlides(slideIndex[no] += n, no);
